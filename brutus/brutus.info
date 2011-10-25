@@ -4,7 +4,7 @@ screenshot = images/screenshot.gif
 core = "6.x"
 project = "brutus"
 engine = phptemplate
-version = "6.22"
+version = "6.x"
 
 regions[header_top] = header top 
 regions[header] = Header
@@ -32,7 +32,7 @@ features[] = secondary_links
 stylesheets[all][] = css/brutus.css
 scripts[] = js/browser.js
 scripts[] = js/custom.js
-scripts[] = js/jquery.beforeafter.min.js
+//scripts[] = js/jquery.beforeafter.min.js
 
 ; Widths columns, 960px/col
 skinr[col-width][title] = Width (16 column grid)
