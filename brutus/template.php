@@ -304,7 +304,7 @@ function brutus_menu_local_tasks() {
 }
 
 /* 	
- * 	Add custom classes to menu item
+ * 	Add custom classes to menu item "block"
  */	
 	
 function phptemplate_menu_item($link, $has_children, $menu = '', $in_active_trail = FALSE, $extra_class = NULL) {
