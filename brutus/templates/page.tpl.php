@@ -211,5 +211,3 @@
 		    	</div><!-- /footer-bottom-wapper -->
 	    </div><!-- /footer-bottom (full screen) -->
     <?php endif; ?>
-  </body>
-</html>
