@@ -86,7 +86,7 @@
     <?php print $user_picture; ?>
         
     <?php if ($display_submitted): ?>
-      <span class="submitted"><?php print $date; ?> — <?php print $name; ?></span>
+      <span class="submitted"><?php print $date; ?> - <?php print $name; ?></span>
     <?php endif; ?>
 
     <?php if (!$teaser): ?>
@@ -104,13 +104,9 @@
        ?>
     </div>
     
-    <?php if (!empty($content['links']['terms'])): ?>
-      <div class="terms"><?php print render($content['links']['terms']); ?></div>
-    <?php endif;?>
+    <?php print render($content['links']); ?>
     
-    <?php if (!empty($content['links'])): ?>
-      <div class="links"><?php print render($content['links']); ?></div>
-    <?php endif; ?>
+    <?php print render($content['comments']); ?>
 
     <?php if (!$teaser): ?>
       <div id="node-bottom" class="node-bottom region nested">
