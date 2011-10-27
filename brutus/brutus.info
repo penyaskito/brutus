@@ -3,24 +3,27 @@ description = Brutus theme for Drupal 7
 screenshot = images/screenshot.gif
 core = 7.x
 
-regions[header_top] = header top 
+regions[header_top] = Header top 
 regions[header] = Header
 regions[left] = First sidebar
 regions[right] = Second sidebar
 regions[content_top] = Content top
-regions[node_top] = node top 
-regions[content] = content
-regions[node_bottom] = node bottom
-regions[content_bottom] = content bottom
-regions[footer] = footer
-regions[footer_bottom] = footer bottom 
+regions[node_top] = Node top 
+regions[content] = Content
+regions[node_bottom] = Node bottom
+regions[content_bottom] = Content bottom
+regions[footer] = Footer
+regions[footer_bottom] = Footer bottom 
 
 features[] = logo
 features[] = name
 features[] = slogan
 features[] = node_user_picture
 features[] = comment_user_picture
+features[] = search
 features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
 
 stylesheets[all][] = css/brutus.css
 scripts[] = js/browser.js
@@ -134,8 +137,7 @@ skinr[brutus-alignment][options][2][class] = brutus-right-content
 settings[brutus_zen_tabs]             = 1
 settings[brutus_block_editing]        = 1
 settings[brutus_breadcrumb]           = yes
-settings[brutus_breadcrumb_separator] = ' » '
+settings[brutus_breadcrumb_separator] = ' » ' 
 settings[brutus_breadcrumb_home]      = 1
 settings[brutus_breadcrumb_trailing]  = 1
 settings[brutus_breadcrumb_title]     = 1
-
