@@ -16,11 +16,7 @@
  * ---------------------------------------
  * http://www.positioniseverything.net/easyclearing.html */
 /* line 17, ../sass/default.sass */
-/* line 19, ../../src/sass/partials/_reset.sass */
-.clearfix {
-  display: inline-block;
-}
-/* line 21, ../../src/sass/partials/_reset.sass */
+/* line 20, ../../src/sass/partials/_reset.sass */
 .clearfix:after {
   content: ".";
   display: block;
@@ -32,7 +28,7 @@
 /* line 19, ../sass/default.sass */
 /* Hides from IE-mac \ */
 /* line 27, ../sass/default.sass */
-/* line 33, ../../src/sass/partials/_reset.sass */
+/* line 32, ../../src/sass/partials/_reset.sass */
 * html .clearfix {
   height: 1%;
 }
@@ -45,7 +41,7 @@
  * This link useful for both visually impaired people and those with mobility impairments
  * who cannot use a mouse. http://www.webaim.org/techniques/css/invisiblecontent/ */
 /* line 60, ../sass/default.sass */
-/* line 48, ../../src/sass/partials/_reset.sass */
+/* line 47, ../../src/sass/partials/_reset.sass */
 #skip a:link, #skip a:hover, #skip a:visited {
   position: absolute;
   left: -10000px;
@@ -54,7 +50,7 @@
   height: 1px;
   overflow: hidden;
 }
-/* line 55, ../../src/sass/partials/_reset.sass */
+/* line 54, ../../src/sass/partials/_reset.sass */
 #skip a:active, #skip a:focus {
   position: static;
   width: auto;
@@ -64,15 +60,15 @@
 /* line 67, ../sass/default.sass */
 /* bug fix with views 2 edit links. */
 /* line 73, ../sass/default.sass */
-/* line 66, ../../src/sass/partials/_reset.sass */
+/* line 65, ../../src/sass/partials/_reset.sass */
 div.view div.views-admin-links {
   width: auto;
 }
-/* line 68, ../../src/sass/partials/_reset.sass */
+/* line 67, ../../src/sass/partials/_reset.sass */
 div.block {
   position: relative;
 }
-/* line 70, ../../src/sass/partials/_reset.sass */
+/* line 69, ../../src/sass/partials/_reset.sass */
 div.block .edit {
   display: none;
   position: absolute;
@@ -90,14 +86,14 @@ div.block .edit {
   -moz-box-shadow: 0 1px 3px #888888;
   -webkit-box-shadow: -1px 1px 2px #666666;
 }
-/* line 86, ../../src/sass/partials/_reset.sass */
+/* line 85, ../../src/sass/partials/_reset.sass */
 div.block .edit a {
   display: block;
   border: 0;
   padding: 0;
   margin: 0;
 }
-/* line 91, ../../src/sass/partials/_reset.sass */
+/* line 90, ../../src/sass/partials/_reset.sass */
 div.block:hover .edit {
   display: block;
 }
@@ -480,7 +476,7 @@ a:hover, a:active {
   border: 0;
 }
 
-/* line 26, ../../src/sass/partials/_links.sass */
+/* line 25, ../../src/sass/partials/_links.sass */
 ul.links li {
   display: inline-block;
 }
